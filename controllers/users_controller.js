@@ -28,7 +28,7 @@ module.exports = {
 
 
       // return success message
-      return res.send({message:"value"})
+      return res.send({message:"success in adding user"})
     } catch (error) {
       return res.status(500).json({
         message: `error in add ${controler_name}`,
